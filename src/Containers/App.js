@@ -34,7 +34,7 @@ class App extends React.Component {
 
     return (
         <div className="tc">
-            <h1 id="heading">My employees</h1>
+            <h1 id="heading">My Employees</h1>
             <SearchBox searchChange={this.onSearchChange}/>
             <CardList employees={filteredEmployees} />
         </div>
